@@ -1,0 +1,28 @@
+PoliCURE Data License
+=====================
+
+Scope. This license covers the PoliCURE *curation artifacts* — the per-item
+consistency tiers, the LLM-judge Likert scores and rationales, the panel
+averages, the projected `gold_label`, and the judge-panel metadata; i.e. the
+files under `dataset/` (`*.csv` and `*.judges.json`).
+
+License. These artifacts are released under the
+
+    Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt them for any purpose, including commercially,
+provided you give appropriate credit — cite the PoliCURE paper and the three
+source corpora.
+
+    Human-readable summary:  https://creativecommons.org/licenses/by/4.0/
+    Full legal text:         https://creativecommons.org/licenses/by/4.0/legalcode
+
+IMPORTANT — source article text is NOT covered by this license.
+The release is ID-only and contains no article bodies. The original article
+text remains under the terms of its source corpus — ABP (Article-Bias-
+Prediction), CLEF-2023 CheckThat! Task 3A, and SemEval-2019 Task 4. You must
+obtain each corpus yourself and join by `id`, respecting its license and terms
+of use.
+
+(The scripts in this repository are licensed separately under the MIT License;
+see the `LICENSE` file.)
